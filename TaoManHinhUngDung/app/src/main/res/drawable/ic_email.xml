@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="25dp"
+    android:height="25dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Phong bì ngoài -->
+    <path
+        android:fillColor="#2F80ED"
+        android:pathData="M2,5h20v14H2z"/>
+
+    <!-- Nắp thư -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M2,5 L12,12 L22,5"/>
+</vector>

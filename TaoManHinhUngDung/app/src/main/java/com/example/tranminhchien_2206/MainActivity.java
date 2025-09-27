@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnCreateAccount.setOnClickListener(v -> {
-            System.out.println("Chưa làm");
+            Intent intent = new Intent(MainActivity.this, CreateAccountActivity.class);
+            startActivity(intent);
         });
 
     }
